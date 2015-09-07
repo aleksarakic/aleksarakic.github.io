@@ -1,0 +1,76 @@
+body {
+	background: #1A1A1A;
+	margin: 0;
+	padding: 0;
+	font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	font-size: 17px;
+}
+
+img {
+	width: 300px;
+	display: block;
+}
+
+#col-1-10 {
+	overflow: hidden;
+  position: fixed;
+	background-color: #111111;
+	width: 7%;
+	display: inline-block;
+	float: left;
+	height: 100%;
+	padding-top: 20px;
+}
+
+#twitter {
+	padding-bottom: 20px;
+}
+
+#twitter a {
+	text-decoration: none;
+	color: orange;
+	margin-left: 15%; 
+} 
+
+#navbar ul {
+	color: #5f8787;
+	list-style-type: none;
+	float: right;
+	margin-right: none;
+}
+
+:nth-child(1)
+
+li {
+	height: 40px;
+	width: 300px;
+}
+
+li:hover {
+	background-color: #1A1A1A;
+}
+
+li a {
+	text-decoration: none;
+	color: #69b2b2;
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+
+#col-9-10 {
+	background: #1A1A1A;
+	display: inline-block;
+	width: 90%;
+	float: right;
+}
+
+#main-cont {
+	color: #BFBFBF;
+	width: 50%;
+	display: inline-block;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 100px;
+}
