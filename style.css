@@ -7,7 +7,7 @@ body {
 }
 
 img {
-	width: 300px;
+	width: 600px;
 	display: block;
 }
 
@@ -15,7 +15,7 @@ img {
 	overflow: hidden;
   position: fixed;
 	background-color: #111111;
-	width: 7%;
+	width: 143px;
 	display: inline-block;
 	float: left;
 	height: 100%;
