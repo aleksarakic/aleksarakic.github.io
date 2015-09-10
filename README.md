@@ -1,2 +1,2 @@
 ## Personal WS
-[aleksarakic.github.io](http://super-aki.github.io)
+[aleksarakic.github.io](http://aleksarakic.github.io)
