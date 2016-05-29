@@ -1,225 +1,110 @@
-body {
-	background: #1A1A1A;
-	margin: 0;
-	padding: 0;
-	font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
-	font-size: 17px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
 
-img {
+<body>
+	<header>
+		<div>
+			<ul id="list-left">
+				<!-- <li><a href="http://superaki.xyz" target="_blank">Aleksa Rakic</a></li> -->
+			</ul>
+		</div>
+		<div>
+			<ul id="list-right">
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#home">Home</a></li>
+			</ul>
+		</div>
+	</header>
 
-	/*display: block;*/
-	background: url('pictures/loading18.gif') no-repeat;
-}
-
-#col-1-10 {
-	overflow: hidden;
-  position: fixed;
-	background-color: #111111;
-	width: 143px;
-	/*display: inline-block;*/
-	float: left;
-	height: 100%;
-	padding-top: 20px;
-}
-
-#twitter {
-	padding-bottom: 20px;
-}
-
-#twitter a {
-	text-decoration: none;
-	color: orange;
-	margin-left: 15%; 
-} 
-
-#navbar ul {
-	color: #5f8787;
-	list-style-type: none;
-	float: right;
-	margin-right: none;
-}
-
-:nth-child(1)
-
-li {
-	height: 40px;
-	width: 300px;
-}
-
-li:hover {
-	background-color: #1A1A1A;
-}
-
-#navbar li a {
-	text-decoration: none;
-	color: #69b2b2;
-	margin-top: 10px;
-	float: right;
-	margin-right: 10px;
-}
+ 
+	<div id="home-background">
+		<a name="home"></a>
+		<h1 class="main-heading text-center">Aleksa Rakic</h1>
+		<h4 class="small-heading text-center">HTML/CSS | JS | Ruby | Rails</h2>
+		<hr>
+		<div class="btn center-block">
+			<a href="https://twitter.com/akiisuper" class="btn btn-primary" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+			<a href="https://github.com/aleksarakic" class="btn btn-primary" target="_blank"><i class="fa fa-github-alt"></i> Github</a>
+			<a href="https://www.goodreads.com/user/show/37784332-aleksa-rakic" class="btn btn-primary" target="_blank"><i class="fa fa-book"></i> Goodreads</a>
+			<a href="https://www.strava.com/athletes/12956075" class="btn btn-primary" target="_blank"><i class="fa fa-heart-o"></i> Strava</a>
+		</div>
+	</div>
 
 
-#col-9-10 {
-	background: #1A1A1A;
-	display: inline-block;
-	width: 90%;
-	height: 1000px;
-	float: right;
-}
 
-#main-cont {
-	color: #BFBFBF;
-	display: inline-block;
-}
+	<div id="about-background">
+		<a name="about"></a>
+		<h1 class="text-center about-heading">About</h1>
+		<p class="text-center about-paragraph"> <a href="http://codepen.io/FreeCodeCamp/full/VemmoX/" target="_blank"></a></p>
 
-#about-and-links {
-	padding-left: 25%;
-	padding-right: 25%;
-	padding-top: 100px;
-}
+		<div class="container">	
+			<div class="row"><!-- 'Portfolio zipline' rules -->
+				<div class="col-sm-7">
+					<p class="rules-and-stories"> I'm Aleksa. I'm on the path of becoming web developer. This site is my little piece of web which will evolve along with my programming skills.</p>
+					<p class="rules-and-stories">Besides doing stuff on computer, I mostly enjoy spending time in nature: cycling, rock climbing, running or flyfishing.</p>
+					<p class="rules-and-stories">I'm interested in many more things, but mountains and building stuff are my biggest passions.</p>
+					<p class="rules-and-stories"></p>
+					<p class="rules-and-stories"></p>
+					<p class="rules-and-stories"></p>
+					<p class="rules-and-stories"></p>
+					<p class="rules-and-stories"></p>
+				</div>
 
-#links ul li {
-	font-size: 14px;
-	margin-top: 10px;
-	display: inline-block;
-	list-style-type: none;
-	width: 30%;
-	text-decoration: none;
-}
-
-a {
-	text-decoration: none;
-	color: #BFBFBF;
-}
+				<div class="col-sm-5 skica"><!-- lego picture-->
+					<img src="http://img.ffffound.com/static-data/assets/6/10c1999ee15b594aa24429ca9470ddc9d9981e17_m.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-#image {
-	padding-top: 100px;
-	margin-left: 30%;
-	margin-right: 25%;
-}
 
-#image img {
-}
+	<div id="portfolio-background">
+	<a name="portfolio"></a>
+		<h1 class="text-center portfolio-heading">Portfolio</h1>
+		<p class="text-center portfolio-paragraph">Some of my other works</p>
+		<div class="container">
+			<div class="row"><!-- first row portfolio pictures-->
+				<div class="col-md-2 item first-in-row" id="first-port-pic"><a class="portfolio-link" href="http://tviter.herokuapp.com/" target="_blank"></a></div>
+				<div class="col-md-2 item" id="second-port-pic"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/aleksarakic/quotes/blob/master/index.html" target="_blank"></a></div>
+				<div class="col-md-2 item third-in-row" id="third-port-pic"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/aleksarakic/twitch/blob/master/index.html" target="_blank"></a></div>
+			</div>
+			<div class="row"><!-- first row descriptions -->
+				<div class="col-md-2 first-in-row description"><p class="span-desc text-center">Twitter Clone</br>(Rails)</p></div>
+				<div class="col-md-2 description"><p class="span-desc text-center">Random quotes</br>(JavaScript)</p></div>
+				<div class="col-md-2 third-in-row description"><p class="span-desc text-center">Twitch app</br>(jQuery)</p></div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row"><!-- second row portfolio pictures-->
+				<div class="col-md-2 item first-in-row" id="fourth-port-pic"><a class="portfolio-link" href="https://mighty-shelf-4025.herokuapp.com/" target="_blank"></a></div>
+				<div class="col-md-2 item" id="fifth-port-pic"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/aleksarakic/wiki-search/blob/master/index.html" target="_blank"></a></div>
+				<!-- <div class="col-md-2 item third" id="sest"></div> -->
+			</div>
 
-#audio {
-	width:100%;
-}
-
-.audio-items {
-	display: inline-block;
-}
-
-#audio {
-	
-}
-
-#mail {
-	color: green;
-}
-
-#books {
-		width: 40%;
-		height: 20%;
-}
-
-#books span {
-	font-size: 12px;
-	color: #ccc;
-	padding-top: 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#books img {
-	height: 200px;
-	width: 200px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#games a,
-#books a {
-	color: orange;
-}
-
-#games a:hover,
-#books a:hover {
-	color: #5f8787;
-}
-
-#tech ul li {
-	padding: 10px;
-	list-style-type: none;
-}
-
-#tech img {
-	float: left;
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	margin-right: 3px; 
-}
+			<div class="row"><!-- second row descriptions-->
+				<div class="col-md-2 first-in-row description" ><p class="span-desc text-center">Weather app</br>(Sinatra)</p></div>
+				<div class="col-md-2 description"><p class="span-desc text-center">Wiki Search</br>(JS)</p></div>
+			</div>
+		</div>
+	</div>
 
 
-#works {
-	padding-left: 25%;
-	padding-right: 25%;
 
-}
-
-.port-item {
-	margin-top: 59px;
-	height: 70px;
-}
-
-.port-item:nth-child(1){
-	padding-top: 10px;
-}
-
-.port-image {
-	float: left;
-	width: 70px;
-	height: 70px;
-	background-size: cover; 
-}
-
-.port-text {
-	margin-left: 100px;
-}
-
-
-#wiki-pic{
-	background-image: url('http://vignette2.wikia.nocookie.net/psychology/images/6/63/Wikipedia-logo.png/revision/latest?cb=20071106123518');
-	
-}
-
-#quotes-pic{
-	background-image: url('http://img14.deviantart.net/c6ed/i/2011/197/f/f/mountain_png_stock_2_by_mysticmorning-d3w3l7q.png');
-}
-
-#weather-pic-1 {
-	background-image: url('https://lh3.googleusercontent.com/nff5embjFjIFAp-RqIsYTtsMCYLOt9cE9IfB3JNFlhRv88FT7Ghr_g9iIkfhlcLG_A=w300');
-}
-
-#twitter-pic {
-	background-image: url('http://vignette4.wikia.nocookie.net/simpsons/images/1/11/Twitter_bird_icon.png/revision/latest?cb=20111228065136');
-}
-
-#portfolio-pic {
-	background-image: url('http://pngimg.com/upload/bush_PNG7201.png');
-}
-
-#weather-pic-2 {
-	background-image: url('http://s.jtvnw.net/jtv_user_pictures/hosted_images/GlitchIcon_WhiteonPurple.png');
-}
-
-.portfolio-link {
-	text-decoration: underline;
-
-}
-.portfolio-link:hover {
-	color: white;
-}
+	<footer>
+		<div class="footer text-center">
+			<p>	&copy; Aki 2016 :)</p>
+		</div>
+	</footer>
+</body>
+</html>
