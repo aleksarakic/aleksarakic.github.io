@@ -1,18 +1,24 @@
-var $about = "Hello, I'm Aleksa. I'm on the path of becoming web developer. This site is my little piece of web which will evolve with my programming skills."
-
-var $image = "<div><img src='pictures/rain.jpg'<div>"
-var $image1 = "<div><img src='rain.jpg'<div>"
-var $image2 = "<div><img src='lll.jpg'<div>"
-
 $(document).ready(function(){
-	$('#main-cont').html($about);
-});	
+	$('#main-cont').children().hide();
+	$('#about-and-links').show();
 
+	$('.about').click(function(){
+		$('#main-cont').children().hide();
+		$('#about-and-links').show();
+	});
 
-$('.about').click(function(){
-	$('#main-cont').html($about);
-});
+	$('.audio').click(function(){
+		$('#main-cont').children().hide();
+		$('#audio').show();
+	});
 
-$('.image').click(function(){
-	$('#main-cont').html($image);
+	$('.works').click(function(){
+		$('#main-cont').children().hide();
+		$('#works').show();
+	});
+
+	$('.image').click(function(){
+		$('#main-cont').children().hide();
+		$('#image').show();
+	});
 });
