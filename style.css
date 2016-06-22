@@ -166,6 +166,13 @@ hr {
   background-repeat: no-repeat;
 }
 
+#sixth-port-pic {
+	background-image: url('http://www.fundforthailand.com/image/news-thenextweb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
 
 .footer {
 	background-color: black;
