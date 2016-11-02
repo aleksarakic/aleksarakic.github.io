@@ -1,207 +1,232 @@
-body{
-  padding: 0 ;
-  margin: 0;
-}
-
-header{
-	position: fixed;
-	
-	width: 100%;
-	height: 50px;
-}
-
-#list-left li {
-	display: inline;
+body {
+	background: #1A1A1A;
 	margin: 0;
 	padding: 0;
+	font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	font-size: 17px;
+}
+
+img {
+
+	/*display: block;*/
+	background: url('pictures/loading18.gif') no-repeat;
+}
+
+#col-1-10 {
+	overflow: hidden;
+  position: fixed;
+	background-color: #111111;
+	width: 143px;
+	/*display: inline-block;*/
 	float: left;
+	height: 100%;
+	padding-top: 20px;
 }
 
-#list-right li {
-	display: inline;
-	float: right;
-}
-
-#list-left a,
-#list-right a {
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-  background-color: none;
-  color: white;
-  padding: 12px;
-  border-top: 1px solid none;
-  border-right: 1px solid none;
-  border-bottom: 1px solid none;
-  border-left: 1px solid none;
-}
-
-
-#list-right a:hover,
-#list-left a:hover {
-	background-color: rgba(1000, 300, 300, 0.2);
-}
-
-#list-right li:nth-child(1) a {
-	margin-right: 50px;
-}
-
-.main-heading {
-	margin-top: 0 !important;
-	padding-top: 150px;
-	color: white;
-}
-
-.portfolio-heading,
-.about-heading {
-	padding-top: 50px;
-	color: white;
-	margin-top: 0 !important;	
-}
-
-.small-heading {
-	color: white;
-}
-
-hr {
-	width: 50%;
-}
-
-.about-paragraph {
-	font-weight: bold;
-	color: red;
-	padding-bottom: 60px;
-}
-
-.about-span {
-	color: white;
-	font-weight: bold;
-}
-
-.rules-and-stories {
-	padding-left: 50px;
-	color: white;
-	font-size: 19px;
-}
-
-
-
-.portfolio-paragraph {
-	color: white;
-	font-weight: bold;
+#twitter {
 	padding-bottom: 20px;
 }
 
-.item {
+#twitter a {
+	text-decoration: none;
+	color: orange;
+	margin-left: 15%; 
+} 
+
+#navbar ul {
+	color: #5f8787;
+	list-style-type: none;
+	float: right;
+	margin-right: none;
+}
+
+:nth-child(1)
+
+li {
+	height: 40px;
+	width: 300px;
+}
+
+li:hover {
+	background-color: #1A1A1A;
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: #69b2b2;
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+
+#col-9-10 {
+	background: #1A1A1A;
+	display: inline-block;
+	width: 90%;
+	height: 1000px;
+	float: right;
+}
+
+#main-cont {
+	color: #BFBFBF;
+	
+}
+
+#about-and-links {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 100px;
+}
+
+#links ul li {
+	font-size: 14px;
+	margin-top: 10px;
+	display: inline-block;
+	list-style-type: none;
+	width: 30%;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #BFBFBF;
+}
+
+
+#image {
+	padding-top: 100px;
+	margin-left: 30%;
+	margin-right: 25%;
+}
+
+#image img {
+}
+
+#audio {
+	width:100%;
+}
+
+.audio-items {
+	display: inline-block;
+}
+
+#audio {
+	
+}
+
+#mail {
+	color: green;
+}
+
+#books {
+		width: 40%;
+		height: 20%;
+}
+
+#books span {
+	font-size: 12px;
+	color: #ccc;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#books img {
 	height: 200px;
-	padding: 0 !important;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.item:hover {
-	background-color: rgba(1000, 300, 300, 0.1);
-	
+#games a,
+#books a {
+	color: orange;
 }
 
-.description {
-	margin-bottom: 30px;
-	margin-top: 5px;
+#games a:hover,
+#books a:hover {
+	color: #5f8787;
 }
 
-.span-desc {
-	color: white;
-	
+#tech ul li {
+	padding: 10px;
+	list-style-type: none;
 }
 
-.first-in-row {
-	margin-right: 30px;
-	margin-left: 260px;
+#tech img {
+	float: left;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 3px; 
 }
 
-.third-in-row {
-	margin-left: 30px;
+
+#works {
+	padding-left: 25%;
+	padding-right: 25%;
+
+}
+
+.port-item {
+	margin-top: 59px;
+	height: 70px;
+}
+
+.port-item:nth-child(1){
+	padding-top: 10px;
+}
+
+.port-image {
+	float: left;
+	width: 70px;
+	height: 70px;
+	background-size: cover; 
+}
+
+.port-text {
+	margin-left: 100px;
+}
+
+
+#pomodoro-pic{
+	background-image: url('http://a4.mzstatic.com/au/r30/Purple69/v4/af/8d/aa/af8daa81-550e-9018-2d83-ce482b206ab3/icon256.png');
+}
+
+#tnw{
+	background-image: url('http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/TNW.png');
+}
+
+#wiki-pic{
+	background-image: url('http://vignette2.wikia.nocookie.net/psychology/images/6/63/Wikipedia-logo.png/revision/latest?cb=20071106123518');
+}
+
+#quotes-pic{
+	background-image: url('http://img14.deviantart.net/c6ed/i/2011/197/f/f/mountain_png_stock_2_by_mysticmorning-d3w3l7q.png');
+}
+
+#weather-pic-1 {
+	background-image: url('https://lh3.googleusercontent.com/nff5embjFjIFAp-RqIsYTtsMCYLOt9cE9IfB3JNFlhRv88FT7Ghr_g9iIkfhlcLG_A=w300');
+}
+
+#twitter-pic {
+	background-image: url('http://vignette4.wikia.nocookie.net/simpsons/images/1/11/Twitter_bird_icon.png/revision/latest?cb=20111228065136');
+}
+
+#portfolio-pic {
+	background-image: url('https://lh5.ggpht.com/mx7T_0E3GhoowGpFqR4DkbDMALxpMr254R8jlLNeX1hbz_beXTp92jIyo6LwIvICIg=w300');
+}
+
+#weather-pic-2 {
+	background-image: url('http://s.jtvnw.net/jtv_user_pictures/hosted_images/GlitchIcon_WhiteonPurple.png');
 }
 
 .portfolio-link {
-	background-image: url('http://www.thinksnaps.com/wp-content/uploads/2014/07/images-background.jpg');
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-clip: border-box;
-    display: block;
-    width: 190px;
-    height: 190px;
-    text-decoration: none;
-    cursor: pointer;
-    overflow: hidden;
-    text-indent: 100%;
-    white-space:nowrap;
-}
-
-#first-port-pic {
-  background-image: url('https://g.twimg.com/Twitter_logo_blue.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#second-port-pic {
-	background-image: url('http://www.georgefox.edu/offices/arc/learning-tools/pomodoro.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#third-port-pic {
-	background-image: url('http://4.bp.blogspot.com/-QnPTbc80rek/Vj3PsF-k55I/AAAAAAAAAs4/GS4rBxz9JMo/s1600/WWWWWWW.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#fourth-port-pic {
-	background-image: url('http://icons.iconarchive.com/icons/custom-icon-design/lovely-weather-2/512/Moon-full-icon.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}	
-
-#fifth-port-pic {
-	background-image: url('http://vignette2.wikia.nocookie.net/psychology/images/6/63/Wikipedia-logo.png/revision/latest?cb=20071106123518');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#sixth-port-pic {
-	background-image: url('http://img12.deviantart.net/65e4/i/2013/003/6/6/png_floating_terrain_by_moonglowlilly-d5qb58m.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+	text-decoration: underline;
 
 }
-
-
-.footer {
-	background-color: black;
-}
-
-.fa,
-footer p {
-	padding-bottom: 0;
-	margin: 0;
+.portfolio-link:hover {
 	color: white;
-}
-
-#home-background{
-	height: 1050px;
-	background-image: url('https://36.media.tumblr.com/09d7aa361737d987b8fbb2fae480e12a/tumblr_o2b0atRWML1sbp1i8o1_1280.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-#about-background{
-	height: 1000px;
-	background-image: url('http://wallup.net/wp-content/uploads/2016/01/252608-nature-landscape-mountain-forest-mist-clouds-Alps.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-#portfolio-background{
-	height: 1090px;
-	background-image: url('http://www.motox1wallpaper.com/wp-content/1HD/Nature/FTP2/1920x1200/Snow-capped%20peaks%20wallpaper%201920x1200.jpg');
-	background-attachment: fixed;
-	background-size: cover;
 }
