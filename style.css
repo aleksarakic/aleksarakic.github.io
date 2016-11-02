@@ -4,6 +4,11 @@ body {
 	padding: 0;
 	font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
 	font-size: 17px;
+	min-height: 100vh;
+}
+
+html {
+	height: 100vh;
 }
 
 img {
@@ -64,7 +69,7 @@ li:hover {
 	background: #1A1A1A;
 	display: inline-block;
 	width: 90%;
-	height: 1000px;
+	height: 100%;
 	float: right;
 }
 
@@ -77,6 +82,7 @@ li:hover {
 	padding-left: 25%;
 	padding-right: 25%;
 	padding-top: 100px;
+	height: 100vh;
 }
 
 #links ul li {
@@ -176,7 +182,7 @@ a {
 }
 
 .port-item:nth-child(1){
-	padding-top: 10px;
+	margin-top: 0px;
 }
 
 .port-image {
@@ -229,4 +235,12 @@ a {
 }
 .portfolio-link:hover {
 	color: white;
+}
+
+::-moz-selection { 
+    background: blue;
+}
+
+::selection { 
+    background: blue;
 }
